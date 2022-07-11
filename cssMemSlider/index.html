@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>MemSlider</title>
+  </head>
+  <body>
+    <h1 class="title">CSS MemSlider</h1>
+    <section class="slider">
+      <input
+        class="control-check"
+        name="slide"
+        type="radio"
+        id="slide-1"
+        checked
+      />
+      <input class="control-check" name="slide" type="radio" id="slide-2" />
+      <input class="control-check" name="slide" type="radio" id="slide-3" />
+      <input class="control-check" name="slide" type="radio" id="slide-4" />
+      <input class="control-check" name="slide" type="radio" id="slide-5" />
+
+      <div class="slider__content">
+        <img src="assets/slide-1.jpg" alt="memes-1" class="img img-1" />
+        <img src="assets/slide-2.jpg" alt="memes-1" class="img img-2" />
+        <img src="assets/slide-3.jpg" alt="memes-1" class="img img-3" />
+        <img src="assets/slide-5.jpg" alt="memes-1" class="img img-4" />
+      </div>
+
+      <div class="slider__descriptions">
+        <p class="description desc-1">Before Coffee After Coffee</p>
+        <p class="description desc-2">Junior At a Startup</p>
+        <p class="description desc-3">No One Can Be as Funny as JS</p>
+        <p class="description desc-4">Only CSS Slider</p>
+      </div>
+      <div class="slider__controls">
+        <label class="control-button" for="slide-1">
+          <div class="control-circle slide-control-1"></div>
+        </label>
+        <label class="control-button" for="slide-2">
+          <div class="control-circle slide-control-2"></div>
+        </label>
+        <label class="control-button" for="slide-3">
+          <div class="control-circle slide-control-3"></div>
+        </label>
+        <label class="control-button" for="slide-4">
+          <div class="control-circle slide-control-4"></div>
+        </label>
+      </div>
+    </section>
+  </body>
+</html>
